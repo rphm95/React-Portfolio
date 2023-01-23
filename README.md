@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Technologies used: 
+
+- `https://www.npmjs.com/package/react-mailchimp-subscribe`
+
+- `https://animate.style/`
+
+- `https://www.npmjs.com/package/react-on-screen`
+
+- `https://devicon.dev/`
+
+- `https://www.knowledgehut.com/blog/web-development/nodemailer-module-nodejs`
