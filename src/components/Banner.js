@@ -7,13 +7,14 @@ import project1 from '../assets/img/project-1.png';
 import project2 from '../assets/img/project-2.png';
 import project3 from '../assets/img/project3.png';
 import 'animate.css';
+import cv from '/Users/rafaelabootcamp/dev/Portfolio-react/src/assets/img/Rafaela-Hollanda-Resume.pdf';
 import TrackVisibility from 'react-on-screen';
 import { HashLink } from 'react-router-hash-link';
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0); //indicates index to each word displayed
     const [isDeleting, setIsDeleting] = useState(false); //the word is being typed or deleted
-    const toRotate = ["Software Engineer", "Full Stack Developer", "Brazilian", "Travel Enthusiast"] //this is the loop for the carousel of words.
+    const toRotate = ["Software Developer", "Full Stack Developer", "Brazilian", "Travel Enthusiast"] //this is the loop for the carousel of words.
     const [text, setText] = useState('') //component needs to know each text is being displayed
     const [index, setIndex] = useState(1);
     const [delta, setDelta] = useState(300 - Math.random() * 100) //to determine how fast the other letter comes after the other one is typed.
@@ -63,7 +64,7 @@ export const Banner = () => {
                                 <span className="tagline">Welcome to my Portfolio</span>
                                 <h1>{`Hi! I'm Rafaela, `}<span className="wrap">{text}</span></h1>
                                 <p></p>
-                                {/* <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/></button> */}
+                                <button onClick={() => console.log('connect')}><a href={cv} target='_blank' className="resume">Resume <ArrowRightCircle size={25}/></a></button>
                             </div>}
                         </TrackVisibility>  
                     </Col>
