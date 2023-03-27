@@ -350,7 +350,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project-img{
-  height: 150px;
+  height: 15rem;
+  /* width:min-content; */
 }
 .project {
   padding: 80px 0;
@@ -483,10 +484,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/* #btn{
-  width: 176px;
-  margin-left: 150px;
-} */
+#btn{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#btncard{
+  font-size: 1rem;
+}
+
+
 
 /************ Projects Css ************/
 .contact {

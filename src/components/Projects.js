@@ -15,31 +15,36 @@ export const Projects = () => {
             title: "World Travel",
             description:"Full Stack web app created with Node.js, Express connected to MongoDb.",
             imgUrl: projImg1,
-            link: "https://nameless-plains-06717.herokuapp.com/"
+            link: "https://nameless-plains-06717.herokuapp.com/",
+            code: "https://github.com/rphm95/project2"
         },
         {
             title: "La Boutique",
-            description:"Developed in collaboration with a partner using Node.js, Express.js, React, MongoDB and BootStrap",
+            description:"Developed in collaboration with a partner using Node.js, Express.js, React, MongoDB and BootStrap.",
             imgUrl: projImg5,
-            link: "https://powerful-sierra-23754.herokuapp.com/"
+            link: "https://powerful-sierra-23754.herokuapp.com/",
+            code: "https://github.com/rphm95/project3BackEnd"
         },
         {
-            title: "Porftolio",
-            description:"Developed with Jquery, Html, CSS and JavaScript.",
+            title: "Welcome Aboard",
+            description:"Developed with JQuery, Html, CSS and JavaScript.",
             imgUrl: projImg3,
-            link: "https://rphm95.github.io/Portfolio/"
+            link: "https://rphm95.github.io/Portfolio/",
+            code: "https://github.com/rphm95/Portfolio"
         },
         {
             title: "LoveStruck",
-            description:"Full Stack web app developed in collaboration with a partner, using Python, Django, PostgreSQL and React",
+            description:"Full Stack web app developed in collaboration with a partner, using Python, Django, PostgreSQL and React.",
             imgUrl: projImg2,
-            link: "https://singular-druid-6c25ce.netlify.app/"
+            link: "https://singular-druid-6c25ce.netlify.app/",
+            code: "https://github.com/evrouge/dating-app-backend"
         },
         {
             title: "BookClub",
-            description:"Full Stack web app developed using Java, Spring, PostgreSQL and React",
+            description:"Full Stack web app developed using Java, Spring, PostgreSQL and React.",
             imgUrl: projImg4,
-            link: "https://velvety-kelpie-5e2788.netlify.app/"
+            link: "https://velvety-kelpie-5e2788.netlify.app/",
+            code: "https://github.com/rphm95/BookClub-backend"
         }
     ]
 
@@ -51,10 +56,10 @@ export const Projects = () => {
                     <TrackVisibility>
                     {({ isVisible }) =>
                     <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                        <h2>Projects</h2>
+                        <h2>My Projects</h2>
                         <p></p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                            <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                            {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Tab 1</Nav.Link>
                                 </Nav.Item>
@@ -64,7 +69,7 @@ export const Projects = () => {
                                 <Nav.Item>
                                     <Nav.Link eventKey="third">Tab 3</Nav.Link>
                                 </Nav.Item>
-                            </Nav>
+                            </Nav> */}
                             <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                                 <Tab.Pane eventKey="first">
                                 <Row>

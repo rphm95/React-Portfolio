@@ -6,6 +6,8 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import github from '../assets/img/github-icon.png';
 import { HashLink } from 'react-router-hash-link';
+import { ArrowRightCircle } from 'react-bootstrap-icons';
+import cv from '/Users/rafaelabootcamp/dev/Portfolio-react/src/assets/img/Rafaela-Hollanda-Resume.pdf';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -47,12 +49,13 @@ export const NavBar = () => {
                             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                             <Nav.Link href="#project" className={activeLink === 'project' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project')}>Projects</Nav.Link>
                             {/* <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About Me</Nav.Link> */}
+                            <button onClick={() => console.log('connect')}><a href={cv} target='_blank' className="resume">Resume <ArrowRightCircle size={25}/></a></button>
                         </Nav>
                         <span className="navbar-text">
                             <div className="social-icon">
-                                <a href="#"><img src={navIcon1} alt=""/></a>
-                                <a href="#"><img src={navIcon2} alt=""/></a>
-                                <a href="#"><img src={github} alt=""/></a>
+                                <a href="https://www.linkedin.com/in/rafaela-hollanda" target="_blank"><img src={navIcon1} alt=""/></a>
+                                {/* <a href="#"><img src={navIcon2} alt=""/></a> */}
+                                <a href="https://github.com/rphm95" target="_blank"><img src={github} alt=""/></a>
                             </div>
                             <HashLink to='#connect'>
                                 <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>

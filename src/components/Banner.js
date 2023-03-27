@@ -18,7 +18,7 @@ export const Banner = () => {
     const [text, setText] = useState('') //component needs to know each text is being displayed
     const [index, setIndex] = useState(1);
     const [delta, setDelta] = useState(300 - Math.random() * 100) //to determine how fast the other letter comes after the other one is typed.
-    const period = 1000; //time for each word
+    const period = 800; //time for each word
 
     useEffect(() => {
         let ticker = setInterval(() => {
