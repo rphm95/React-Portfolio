@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.be4f7a42.css",
-    "main.js": "/static/js/main.0ef27929.js",
+    "main.css": "/static/css/main.490bfbbd.css",
+    "main.js": "/static/js/main.9fdac5dc.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/project-2.png": "/static/media/project-2.61e0a4de6ebbd36b70ff.png",
     "static/media/worldtravel.png": "/static/media/worldtravel.8111bd925e35298fe9d4.png",
@@ -32,12 +32,12 @@
     "index.html": "/index.html",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.be4f7a42.css.map": "/static/css/main.be4f7a42.css.map",
-    "main.0ef27929.js.map": "/static/js/main.0ef27929.js.map",
+    "main.490bfbbd.css.map": "/static/css/main.490bfbbd.css.map",
+    "main.9fdac5dc.js.map": "/static/js/main.9fdac5dc.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be4f7a42.css",
-    "static/js/main.0ef27929.js"
+    "static/css/main.490bfbbd.css",
+    "static/js/main.9fdac5dc.js"
   ]
 }

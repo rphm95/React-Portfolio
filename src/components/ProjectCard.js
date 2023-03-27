@@ -11,8 +11,8 @@ export const ProjectCard = ({title, description, imgUrl, link, code }) => {
                     <h4>{title}</h4>
                     <span>{description}</span>
                     <Container id="btn">
-                        <Button variant="dark" id="btncard"><a href={link}>Demo</a></Button>
-                        <Button variant="dark" id="btncard"><a href={code}>Code</a></Button>
+                        <Button variant="dark" id="btncard"><a href={link} target="_blank">Demo</a></Button>
+                        <Button variant="dark" id="btncard"><a href={code} target="_blank">Code</a></Button>
                     </Container>
                 </div>
             </div>

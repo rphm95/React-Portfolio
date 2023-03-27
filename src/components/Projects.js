@@ -22,7 +22,7 @@ export const Projects = () => {
             title: "La Boutique",
             description:"Developed in collaboration with a partner using Node.js, Express.js, React, MongoDB and BootStrap.",
             imgUrl: projImg5,
-            link: "https://powerful-sierra-23754.herokuapp.com/",
+            link: "https://powerful-sierra-23754.herokuapp.com",
             code: "https://github.com/rphm95/project3BackEnd"
         },
         {
